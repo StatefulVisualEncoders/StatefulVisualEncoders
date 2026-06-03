@@ -1,0 +1,9 @@
+# Runtime deps for the sve package, the demo, and data_prep.
+torch>=2.4
+transformers>=5.0
+pillow              # sve.demo
+huggingface_hub>=0.24   # data_prep downloaders
+# Optional: enables the batched flash-varlen cross-attention path
+# (Qwen3.5 / Qwen3-VL / GLM-4.6V). Without it the SVE falls back to a correct
+# per-pair loop. Install separately: pip install flash-attn --no-build-isolation
+# flash-attn>=2.8

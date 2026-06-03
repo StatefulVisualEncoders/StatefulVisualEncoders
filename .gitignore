@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Environments / IDE
+venv/
+.venv/
+env/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Models, data, and training outputs (fetched/built separately — see docs/DATA.md)
+models/
+data/
+outputs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Logs / caches / tooling
+*.log
+wandb/
+.cache/
+.claude/
+*.pdf

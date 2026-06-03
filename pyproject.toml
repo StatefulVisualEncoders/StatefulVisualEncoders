@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sve"
+version = "0.1.0"
+description = "Stateful Visual Encoder (SVE): cross-image conditioning inside the vision encoder of open-weight VLMs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Zirui Wang" }]
+dependencies = [
+    "torch>=2.4",
+    "transformers>=5.0",
+    "pillow",            # sve.demo
+    "huggingface_hub>=0.24",  # data_prep downloaders
+]
+
+[project.optional-dependencies]
+# flash-attn enables the batched varlen path (Qwen3.5/3-VL/GLM-4.6V); without it
+# the SVE falls back to a correct per-pair loop.
+flash = ["flash-attn>=2.8"]
+
+[project.urls]
+Homepage = "https://statefulvisualencoders.github.io/"
+Repository = "https://github.com/StatefulVisualEncoders/StatefulVisualEncoders"
+
+[tool.setuptools]
+packages = ["sve", "sve.families", "data_prep"]
