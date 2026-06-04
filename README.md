@@ -20,7 +20,7 @@
 <p align="center">
   <a href="https://statefulvisualencoders.github.io/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20project-page-blue" alt="Project page"></a>
   <!-- TODO: point the paper badge to the arXiv URL once available -->
-  <a href="https://statefulvisualencoders.github.io/"><img src="https://img.shields.io/badge/%F0%9F%93%84%20paper-coming%20soon-b31b1b" alt="Paper"></a>
+  <a href="https://arxiv.org/pdf/2606.04433"><img src="https://img.shields.io/badge/%F0%9F%93%84%20paper%20-b31b1b" alt="Paper"></a>
   <img src="https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20license-MIT-blue" alt="License">
   <img src="https://img.shields.io/badge/%F0%9F%A7%A9%20backbones-5%20VLM%20families-7c3aed" alt="Backbones">
 </p>
