@@ -18,6 +18,11 @@
 <p align="center"><sub><a href="https://www.voio.com/">Voio, Inc.</a> &nbsp;·&nbsp; <a href="https://www.berkeley.edu/">UC Berkeley</a> &nbsp;·&nbsp; <a href="https://www.ucsf.edu/">UCSF</a></sub></p>
 
 <p align="center">
+  <b>ECCV Workshop on Medical Foundation Models and Benchmarks (Oral)</b>
+</p>
+
+
+<p align="center">
   <a href="https://statefulvisualencoders.github.io/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20project-page-blue" alt="Project page"></a>
   <!-- TODO: point the paper badge to the arXiv URL once available -->
   <a href="https://arxiv.org/pdf/2606.04433"><img src="https://img.shields.io/badge/%F0%9F%93%84%20paper%20-b31b1b" alt="Paper"></a>
