@@ -18,9 +18,14 @@
 <p align="center"><sub><a href="https://www.voio.com/">Voio, Inc.</a> &nbsp;·&nbsp; <a href="https://www.berkeley.edu/">UC Berkeley</a> &nbsp;·&nbsp; <a href="https://www.ucsf.edu/">UCSF</a></sub></p>
 
 <p align="center">
+  <b>EMNLP 2026 Main Conference</b>
+</p>
+<p align="center">
   <b>ECCV Workshop on Medical Foundation Models and Benchmarks (Oral)</b>
 </p>
-
+<p align="center">
+  <b>ECCV Workshop on X-Reason (Oral)</b>
+</p>
 
 <p align="center">
   <a href="https://statefulvisualencoders.github.io/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20project-page-blue" alt="Project page"></a>
